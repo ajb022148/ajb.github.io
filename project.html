@@ -1,0 +1,109 @@
+<!DOCTYPE html><!--21761067_안준범-->
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+   <style>
+    input[id="menuicon"] {display:none;}
+    input[id="menuicon"] + label {display:block;margin:30px;width:30px;height:20px;position: fixed;top: 0px; left:0;cursor:pointer;}
+    input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:4px;border-radius:30px;background:#4db3f5  ;transition:all .35s;}
+    input[id="menuicon"] + label span:nth-child(1) {top:0;}
+    input[id="menuicon"] + label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+    input[id="menuicon"] + label span:nth-child(3) {bottom:0;}
+    input[id="menuicon"]:checked + label {z-index:2;position: fixed; top: 30px; top: 0; left:0; z-index:10;}
+    input[id="menuicon"]:checked + label span {background:#ffffff;}
+    input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+    input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+    input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+    div[class="sidebar"] {width:255px;height:100%;font-size:14px;background:#4db3f5;position:fixed;top:0;left:-300px;z-index:1;transition:all .35s;}
+    input[id="menuicon"]:checked + label + div {left:0;}
+    body{
+      background-color: #ffffff;
+    }
+    ul {
+      font-family: "Univers LT std 65 Bold";
+      list-style-type: none;
+      margin-top:100px;
+      padding: 0;
+    }
+    li a {
+      text-size:13px;
+      margin: 0 0 0 25px;
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color:#ffffff;
+    }
+    h4 {
+      margin-top:20px;
+      text-align:center;
+      color:#4db3f5;
+      font-family:"Univers LT std 65 Bold";
+      font-size:50px;
+    }
+    h3 {
+      text-align:center;
+      color:#4db3f5;
+      font-family:"나눔고딕";
+      font-size:15px;
+      font-weight: bold;
+    }
+    h2 {
+      text-align:center;
+      color:#4db3f5;
+      font-family:"Univers LT std 55 Roman";
+      font-size:20px;
+    }
+    h1 {
+      text-align:center;
+      color:#4db3f5;
+      font-family:"나눔고딕"
+      font-weight: bold;
+    }
+    #img {
+      margin-left:490px;
+    }
+   </style>
+  <body>
+    <body>
+      <input type="checkbox" id="menuicon">
+      <label for="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="sidebar">
+        <ul>
+          <li id="m"><a href="index.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Main</font></a></li>
+          <li id="p"><a href="project.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Project studio</font></a></li>
+          <li id="v"><a href="visual.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Visual communication</font></a></li>
+          <li id="u"><a href="uiux.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">UI/UX design</font></a></li>
+          <li id="a"><a href="index_21761067a.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Web publishing</font></a></li>
+          <li id="a"><a href="aboutme.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">About me</font></a></li>
+        </ul>
+      </div>
+      <h4>Project studio</h4>
+      <h2>20.04 ~ 20.06</h2>
+      <h3>' 허리가 굽은 젊은 세대를 위한 프로젝트 '</h3>
+      <br><br>
+      <a href="indexw.html"><img src="img/pro_1.jpg" width="100%"></a>
+      <br><br><br>
+      <h3>' 운동은 하고 싶은데, 운동 할 수 있는 장소를 모르겠고...<br>
+            함께 운동할 수 있는 친구도 모르겠고...<br>
+            운동을 좀 더 잘하고 싶어서 피드백을 받고 싶은 분들을 위한 <br>
+            앱 서비스를 제작해봤습니다.'</h3>
+            <br>
+      <h2>Click on the image to go to the App Services page</h2>
+      <br><br>
+      <a href="img/pro_2.jpg" target="_blank"><img id="img" src="img/pro_2.jpg" width="50%"><a>
+      <br><br><br>
+      <h2>Character design part</h2>
+      <br>
+      <h3>' 저는 캐릭터 디자인을 담당하였으며, 운동장은 전문성 앱이<br>
+            아니다보니 좀 더 친숙하게 다가가는 캐릭터를 표현하기 위해<br>
+            3등신 캐릭터로 제작하였으며, 다양한 운동을 하는 캐릭터들을<br>
+            제작해봤습니다.'</h3>
+      <br><br><br><br><br><br>
+  </body>
+</html>

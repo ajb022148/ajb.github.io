@@ -1,0 +1,127 @@
+<!DOCTYPE html><!--21761067_안준범-->
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+   <style>
+    input[id="menuicon"] {display:none;}
+    input[id="menuicon"] + label {display:block;margin:30px;width:30px;height:20px;position: fixed;top: 0px; left:0;cursor:pointer;}
+    input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:4px;border-radius:30px;background:#ffffff;transition:all .35s;}
+    input[id="menuicon"] + label span:nth-child(1) {top:0;}
+    input[id="menuicon"] + label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+    input[id="menuicon"] + label span:nth-child(3) {bottom:0;}
+    input[id="menuicon"]:checked + label {z-index:2;position: fixed; top: 30px; top: 0; left:0; z-index:10;}
+    input[id="menuicon"]:checked + label span {background:#ffffff;}
+    input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+    input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+    input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+    div[class="sidebar"] {width:255px;height:100%;font-size:14px;background:#0b0b0b;position:fixed;top:0;left:-300px;z-index:1;transition:all .35s;}
+    input[id="menuicon"]:checked + label + div {left:0;}
+    body{
+      background-color: #010101;
+    }
+    ul {
+      font-family: "Univers LT std 65 Bold";
+      list-style-type: none;
+      margin-top:100px;
+      padding: 0;
+    }
+    li a {
+      text-size:13px;
+      margin: 0 0 0 25px;
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color:#ffffff;
+    }
+    h4 {
+      margin-top:20px;
+      text-align:center;
+      color:#ffffff;
+      font-family:"Univers LT std 65 Bold";
+      font-size:50px;
+    }
+    h3 {
+      text-align:center;
+      color:#ffffff;
+      font-family:"Univers LT std 55 Roman";
+      font-size:15px;
+    }
+    h2 {
+      text-align:center;
+      color:#ffffff;
+      font-family:"Univers LT std 55 Roman";
+      font-size:20px;
+    }
+    #pro1 {
+      float: left;
+      margin:116px 20px 0 350px;
+      }
+    #pro2 {
+      float: left;
+      margin:100px 20px 0 0px;
+      }
+    #pro3 {
+      float: left;
+      margin:84px 0 0 0px;
+      }
+    #pro4 {
+      float: left;
+      margin:116px 20px 0 530px;
+    }
+   </style>
+  <body>
+    <body>
+      <input type="checkbox" id="menuicon">
+      <label for="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="sidebar">
+        <ul>
+          <li id="m"><a href="index.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Main</font></a></li>
+          <li id="p"><a href="project.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Project studio</font></a></li>
+          <li id="v"><a href="visual.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Visual communication</font></a></li>
+          <li id="u"><a href="uiux.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">UI/UX design</font></a></li>
+          <li id="a"><a href="index_21761067a.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">Web publishing</font></a></li>
+          <li id="a"><a href="aboutme.html"><font color="#ffffff" onmouseover="this.style.color='#666666'" onmouseout="this.style.color='#ffffff'">About me</font></a></li>
+        </ul>
+      </div>
+      <h4>Visual communication</h4>
+      <h2>20.04 ~ 20.07</h2>
+      <h3>' Typography essay '</h3>
+      <ul>
+      <li><a href="EG1.html"><img id="pro1"src="img/Univers33.gif" width="20%" ></a></li>
+      <li><a href="EG2.html"><img id="pro2"src="img/Univers2.gif" width="20%"></a></li>
+      <li><a href="EG3.html"><img id="pro3"src="img/Univers1.gif" width="20%"></a></li>
+      </ul>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h4>Univers</h4>
+      <h2>' Universe, everything that exists, and it's space. '</h2>
+      <br>
+      <h3>Click on the image to go to the App Services page</h3>
+      <ul>
+      <li><a href="KR1.html"><img id="pro1"src="img/nanum1.gif" width="20%" ></a></li>
+      <li><a href="KR2.html"><img id="pro2"src="img/nanum2.gif" width="20%"></a></li>
+      <li><a href="KR3.html"><img id="pro3"src="img/nanum3.gif" width="20%"></a></li>
+      </ul>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h4>나눔바른고딕</h4>
+      <h2>' 모바일에서도 또렷하게 보이는 서체 '</h2>
+      <br>
+      <h3>Click on the image to go to the App Services page</h3>
+      <ul>
+      <li><a href="IMG.html"><img id="pro4"src="img/IMG.gif" width="20%" ></a></li>
+      <li><a href="SHA.html"><img id="pro2"src="img/SHA.gif" width="20%"></a></li>
+      </ul>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h4>Force of image, Shape & Color</h4>
+      <h2>' 레트로와 현대적 만남의 조화 '<br><br>
+          ' 도형속에 갇혀 사는 사람들의 삶 '</h2>
+      <br>
+      <h3>Click on the image to go to the App Services page</h3>
+      <br><br><br><br><br><br>
+  </body>
+</html>
